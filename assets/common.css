@@ -9,23 +9,27 @@ body{background-color: rgb(255, 255, 255); padding: 0px;
 	left:0; 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .face1 {
   
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 } 
 .face2{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .face3{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
       }
