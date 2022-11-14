@@ -49,11 +49,11 @@ html {
     }
       
     p{
-      font-family: 'Source Code Pro', monospace; font-size: 15px; line-height: 1.6;
+      font-family: 'Source Code Pro', monospace; font-size: 17px; line-height: 1.6;
       padding-left: 35px; padding-right: 35px;
     }
 
-    h2{font-family: 'Italiana', serif; font-size: 25px;
+    h2{font-family: 'Italiana', serif; font-size: 30px;
       padding-left: 35px; padding-right: 35px;
       
     }
@@ -171,7 +171,7 @@ html {
         opacity: 1;
       }
       
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 50) {
         #menu {
           transform: none;
           opacity: 0;
@@ -193,15 +193,15 @@ html {
       
       .slider {
         width: 100%;
-        max-width: 1000px;
+        max-width: 1500px;
         height: 400px;
         margin: 60px;
         text-align: center;
         border-radius:0px;
         overflow: hidden;
-        position: relative;
+        position: relative; 
       }
-      
+
       .slides {
         display: flex;
         overflow-x: scroll;
@@ -211,7 +211,7 @@ html {
       }
       
       .slide:nth-of-type(even) {
-        background-color: rgba(255, 255, 255, 0.415);
+        background-color: rgb(255, 255, 255);
       }
       
       .slide {
@@ -229,9 +229,9 @@ html {
       }
       
       .slide__text {
-        font-size: 40px;
+        font-size: 50px;
         font-weight: bold;
-        font-family: sans-serif;
+        font-family: 'Source Code Pro', monospace;      
       }
       
       .slide a {
