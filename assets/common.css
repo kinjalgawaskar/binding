@@ -1,4 +1,11 @@
-body{background-color: rgb(255, 255, 255); padding: 0px;
+body {
+  background-image:
+  url('file:///Users/kinjalgavaskar/Developer/binding/gridlines.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF;
 }
 
 .logo{ 
@@ -169,7 +176,7 @@ html {
           transform: none;
           opacity: 0;
       
-          transition: opacity 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+          transition: opacity 100s cubic-bezier(0.77, 0.2, 0.05, 1.0);
         }
       }
       
