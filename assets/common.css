@@ -35,19 +35,19 @@ html {
 }
 
 .face1 {
-   position:absolute;top: 50%;
+   position:absolute;top: 40%;
    left: 50%;
    transform: translate(-50%, -50%);
     }
 
 .face2{
-  position:absolute;top: 50%;
+  position:absolute;top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
     }
 
 .face3{
-  position:absolute;top: 50%;
+  position:absolute;top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
     }
@@ -58,7 +58,7 @@ html {
     }
 
     h2{font-family: 'Italiana', serif; font-size: 30px;
-      padding-left: 35px; pad ding-right: 35px;
+      padding-left: 35px; padding-right: 35px;
       
     }
     
@@ -185,14 +185,19 @@ html {
       }
       
       .slider-container {
-        background: linear-gradient(
-          149deg,
+        width: 100%;
+position: relative;
+top: 53vh;
+display: flex;
+justify-content: center;
          
         );
         display: flex;
         align-items: center;
         justify-content: center;
         height: 100%;
+        position: absolute;
+        top: 45vh;
       }
       
       .slider {
