@@ -1,11 +1,10 @@
 body {
-  background-image:
-  url('file:///Users/kinjalgavaskar/Developer/binding/gridlines.jpg');
+  background-image: "KG.jpg";
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .logo{ 
@@ -16,7 +15,6 @@ body {
 	top:0; 
 	left:0; 
 }
-
 
 header {
   background-color: #fff;
@@ -186,10 +184,10 @@ html {
       
       .slider-container {
         width: 100%;
-position: relative;
-top: 53vh;
-display: flex;
-justify-content: center;
+        position: relative;
+        top: 53vh;
+        display: flex;
+        justify-content: center;
          
         );
         display: flex;
@@ -297,17 +295,35 @@ justify-content: center;
       .bodycolumn {
         float: left;
         width: 50%;
-        padding: 10px;
-        height: 300px;
-      }
+        padding: 5px;
+        height: 100px;
+      } 
 
-      .column {
-        float: right;
+      .methodimage {
         width: 50%;
-        padding: 15px;
+        float: right;
+        padding: 0px;
       }
-    
+      
       @media screen and (max-width:900px) {
-        .column {
+        .methodimage {
           width: 100%;
-        }      
+        }    
+
+        @media screen and (max-width: 600px) {
+          .bodycolumn {
+            width: 100%;
+          }
+        }
+
+        .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: rgb(0, 0, 0);
+          color: white;
+          text-align: center;
+       }
+       
+
