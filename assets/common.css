@@ -349,4 +349,9 @@ h2{
         clear: both;
       }  
         
+      .konstantin {
+       padding: 55px;float: right; display: block;
+       margin-left: auto;
+       margin-right: auto;
+      }
 
