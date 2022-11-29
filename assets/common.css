@@ -7,8 +7,18 @@
 
 .h1{
   font-family: 'Familjen Grotesk', sans-serif;
-
 }
+
+h2{
+  font-size:2vw; font-family: 'Source Code Pro', monospace; 
+  margin-top: -8%; color: #ffffff; text-align: center;  padding-top: 20px;" 
+}
+
+@media (max-width:700px) {
+  h2 {
+     font-size: 12px; padding-top: 5px; color: rgb(35, 116, 255); 
+  }   
+ }
 
 .logo{ 
   position: sticky;
@@ -46,8 +56,8 @@
       
     p{
       font-family: 'Source Code Pro', monospace; font-size: 16px;
-      line-height: 1.6; padding-left: 30px; padding-right: 35px;
-      color:rgb(255, 255, 255); letter-spacing: -1px; margin: 11px;
+      line-height: 1.3; padding-left: 30px; padding-right: 35px;
+      color:rgb(182, 182, 182); letter-spacing: -1px; margin: 11px;
       ;margin-left: 30px;"
     } 
 
