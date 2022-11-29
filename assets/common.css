@@ -11,7 +11,6 @@
 }
 
 .logo{ 
-
   position: sticky;
   width: 5px;
   height: 3px;
@@ -19,19 +18,11 @@
 	left:0; 
 }
 
-header {
-  background-color: #fff;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: center;
-}
-
 .site-logo {
   margin-left: 20px;
 }
 
-html {
+.html {
   scroll-behavior: smooth;
 }
 
@@ -54,11 +45,17 @@ html {
     }
       
     p{
-      font-family: 'Source Code Pro', monospace; font-size: 16px; line-height: 1.6;
-      padding-left: 35px; padding-right: 35px;
-    }
-      
-    }
+      font-family: 'Source Code Pro', monospace; font-size: 16px;
+      line-height: 1.6; padding-left: 30px; padding-right: 35px;
+      color:rgb(255, 255, 255); letter-spacing: -1px; margin: 11px;
+      ;margin-left: 30px;"
+    } 
+
+    @media (max-width:700px) {
+      p {
+         padding-top: 175px;
+      }   
+     }
     
       a {
         text-decoration: none;
@@ -292,37 +289,34 @@ html {
         text-align: center;
       }
 
+      .methodimage {
+        width: 42%; margin-top: -6em;
+        float: right; width: 45%;
+        padding: 55px; 
+      }  
+      
+      @media (max-width:700px) {
+        .methodimage {
+          width: 90%; margin-top: -11em; margin-right: 1em;
+        }   
+       }
+
       .bodycolumn {
         float: left;
-        width: 50%;
+        width: 65%;
         padding: 55px;
         height: 100px;
       } 
 
-      .methodimage {
-        width: 40%;
-        float: right;
-        padding: 55px;
-      } 
-      
-      @media (max-width:700px) {
-        .methodimage {
-          width: 90%;
-        }   }
-      
+      @media screen and (max-width: 700px) {
+        .bodycolumn {
+          width: 100%; padding: 3px; margin-top: -1em;
+      }
+
       .bodycolumn:after {
         content: "";
         display: table; 
         clear: both;
-      }  @media screen and (max-width: 700px) {
-        .bodycolumn {
-          width: 100%; padding: 5px;
-        }
-      }
-
-        .row:after {
-          content: "";
-          display: table;
-          clear: both;
-        } 
+      }  
+        
 
