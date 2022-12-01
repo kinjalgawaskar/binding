@@ -357,23 +357,17 @@ h2{
         .konstantin {
           
       }}
-    }
-
-    .row {
-      float: ;
-      width: 60%;
-      padding: 15px; margin-left: 111px;
-      height: 100px;
-    } 
-
-    @media screen and (max-width: 700px) {
-      .row {
-        width: 100%; padding: 3px; margin-top: -1em;
-    }}
-  
-    .row:after {
-      content: "";
-      display: table; 
-      clear: both;
-    }}
     
+    blockquote{
+      color: #ffffff; font-family: 'Source Code Pro', monospace; font-size: 16px;
+      line-height: 1.6; padding-left:200px; padding-right: 200px; background-color: #ffffff;
+      color:rgb(0, 0, 0); letter-spacing: -1px ; padding-top: 55px;
+  }
+
+  .block-line{
+      height: 47px;
+  } }
+
+  .block-text{
+    height: 47px;
+} 
