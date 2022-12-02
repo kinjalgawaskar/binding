@@ -359,15 +359,31 @@ h2{
       }}
     
     blockquote{
-      color: #ffffff; font-family: 'Source Code Pro', monospace; font-size: 16px;
-      line-height: 1.6; padding-left:200px; padding-right: 200px; background-color: #ffffff;
-      color:rgb(0, 0, 0); letter-spacing: -1px ; padding-top: 55px;
+      color: #ffffff; font-family: 'Source Code Pro', monospace; font-size: 16px; 
+      line-height: 1.6; padding-left:250px; padding-right: 250px; background-color: #ffffff;
+      color:rgb(0, 0, 0); letter-spacing: -1px ; padding-top: 55px; margin: 0;padding-bottom: 95px; 
   }
 
   .block-line{
       height: 47px;
-  } }
+  } 
 
-  .block-text{
-    height: 47px;
-} 
+  .footer {
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+ }
+
+ .button {
+  position: bottom;
+  left: 0; padding-left:50%; padding-right: 50%; padding-top: 1.5%; padding-bottom: 1.5%;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+ }
