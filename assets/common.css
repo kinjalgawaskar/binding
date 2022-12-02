@@ -327,7 +327,7 @@ h2{
       
       @media (max-width:700px) {
         .methodimage {
-          width: 90%; margin-top: -11em; margin-right: 1em;
+          width: 110%; margin-top: -11em; margin-right: -1.5em;
         }   
        }
 
@@ -364,9 +364,19 @@ h2{
       color:rgb(0, 0, 0); letter-spacing: -1px ; padding-top: 55px; margin: 0;padding-bottom: 95px; 
   }
 
+  @media screen and (max-width: 700px) {
+    blockquote {
+      width: 100%; padding: 50px; margin-top: 57em;
+  }}
+
   .block-line{
       height: 47px;
   } 
+
+  @media screen and (max-width: 700px) {
+    .block-line {
+      height: 56%;
+  }}
 
   .footer {
     position: bottom;
@@ -378,6 +388,12 @@ h2{
     text-align: center;
  }
 
+ @media screen and (max-width: 700px) {
+  .footer {
+    width: 100%; font-size: 20px; padding-left: 0px; padding-right: 0px; margin-left: 0px;
+    margin-right: 0px; position: -ms-page;
+}}
+
  .button {
   position: bottom;
   left: 0; padding-left:50%; padding-right: 50%; padding-top: 1.5%; padding-bottom: 1.5%;
@@ -387,3 +403,49 @@ h2{
   color: white;
   text-align: center;
  }
+
+ @media screen and (max-width: 700px) {
+  .button {
+    float: none; padding-left:50%; padding-right: 50%; padding-top: 1.5%; padding-bottom: 1.5%;
+    bottom: 0;
+    width: 100%;
+  }   
+
+ .para1 {
+  background-color: #ffffff; padding-left: 45px; font-size: 35px;color: rgb(124, 124, 124);
+font-family:'Source Code Pro', monospace ; padding-right: 5%; padding-top: 5px; float:right;
+ }
+
+ @media screen and (max-width: 700px) {
+  .para1 {
+    width: 100%; font-size: 20px;
+  }}
+
+ .para2 {
+  background-color: #ffffff; padding-left: 95px; font-size: xxx-large;color: blue;
+  font-family:'Familjen Grotesk' ; padding-right: 20%; 
+ }
+ @media screen and (max-width: 700px) {
+  .para2 {
+    width: 100%; font-size: 20px; padding-left: 55px; padding-right: 55px; margin-left: 0px;
+    margin-right: 0px;
+}}
+
+ .para3 {
+  background-color: #ffffff; padding-left: 95px; font-size: xxx-large; color: blue;
+  font-family:'Familjen Grotesk' ; padding-right:0px; 
+ }
+ @media screen and (max-width: 700px) {
+  .para3 {
+    width: 100%; font-size: 20px; padding-left: 55px; padding-right: 55px; margin-left: 0px;
+    margin-right: 0px;
+}}
+
+ .para4 {
+  background-color: #ffffff; padding-left: 95px; font-size: xxx-large;color: blue;
+  font-family:'Familjen Grotesk' ; padding-right: 20%;
+ }
+ @media screen and (max-width: 700px) {
+  .para4 {
+    width: 100%; font-size: 20px; padding-left: 55px; padding-right: 15px; margin-left: 0px;
+    margin-right: 0px; 
