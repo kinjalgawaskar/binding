@@ -1,12 +1,12 @@
 .body {
   background-position: 0 0, center; width: auto;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat; background-color: black;
   background-attachment: fixed;
   background-size: cover;
 }
 
 h1{
-  font-family: 'Familjen Grotesk';
+  font-family: 'Familjen Grotesk'; background-color: rgb(241, 37, 37);
   font-size:10vw; float: left;
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
   -webkit-text-stroke-width: 0.3px;
@@ -15,25 +15,18 @@ h1{
 
 @media (max-width:700px) {
   h1 {
-    font-family: 'Familjen Grotesk'; margin-left: -1.3em;
-    font-size:16vw; text-align: center;
-    -webkit-text-fill-color: rgb(0, 0, 0);
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: rgb(218, 218, 218);
-    content: "\a";
-  white-space: pre;"
+    width: 100%;padding-left: 12%;
   }   
  }
  
 h2{
-  font-size:3vw; font-family: 'Familjen Grotesk', monospace; float: left;
-  color: #bcbcbc; letter-spacing: 1px; word-spacing: 10px; padding-left: 400px;" 
-}}
+  font-size:3vw; font-family: 'Familjen Grotesk', monospace; float: left; background-color: black;
+  color: #bcbcbc; letter-spacing: 1px; word-spacing: 10px; padding-left: 25%;" 
+}
 
 @media (max-width:700px) {
   h2 {
-     font-size: 12px; padding-top: 1px; color: rgb(190, 190, 190);
-     letter-spacing: 1px; word-spacing: 1px;
+    padding-right: 10%; font-size: 4vw; padding-left: 50px; padding-right: 35px;
   }   
  }
 
@@ -70,18 +63,22 @@ h2{
   left: 50%;
   transform: translate(-50%, -50%);
     }
-      
+    
     p{
-      font-family: 'Source Code Pro', monospace; font-size: 16px;
-      line-height: 1.6; padding-left: 25px; padding-right: 25px;
-      color:rgb(182, 182, 182); letter-spacing: -1px; float: left;
+      font-family: 'Source Code Pro', monospace; font-size: 16px; float: left;
+      line-height: 1.6; padding-left: 25px; padding-right: 25px; background-color: black;
+      color:rgb(182, 182, 182); letter-spacing: -1px; float: left; padding-bottom: 25px;
     } 
 
-    @media (max-width:700px) {
+    @media screen and (max-width:700px) {
       p {
          padding-top: 175px; 
-      }   
-     }
+     }}
+
+     @media screen (max-width: 2000px) and (min-width: 701px) {
+      p {
+         padding-top: 175px; 
+     }}
     
       a {
         text-decoration: none;
@@ -316,9 +313,9 @@ h2{
       }
 
       .methodimage {
-        margin-top: -7em;
+        margin-top: -1em;
         float: right; width: 45%;
-        padding: 55px; 
+        padding: 65px; padding-right: 90px;
       }  
       
       @media (max-width:700px) {
@@ -327,38 +324,11 @@ h2{
           width: 100%; margin-top: -10em; margin-right: -1.5em;
         }   
        }
-
-      .bodycolumn {
-        float: left;
-        width: 60%;
-        padding: 55px;
-        height: 100px;
-      } 
-
-      @media screen and (max-width: 700px) {
-        .bodycolumn {
-          width: 100%; padding: 1px; margin-top: -1em;
-      }}
-    
-      .bodycolumn:after {
-        content: "";
-        display: table; 
-        clear: both;
-      }  
-        
-      .konstantin {
-       padding-top: -3px; width: 30%; margin-left: 5em;
-      }
-
-      @media screen and (max-width: 700px) {
-        .konstantin {
-          
-      }}
-    
+      
     blockquote{
-      color: #ffffff; font-family: 'Source Code Pro', monospace; font-size: 16px; 
-      line-height: 1.6; padding-left:250px; padding-right: 250px; background-color: #ffffff;
-      color:rgb(0, 0, 0); letter-spacing: -1px ; padding-top: 55px; margin: 0;padding-bottom: 95px; 
+      color: #b0b0b0; font-family: 'Source Code Pro', monospace; font-size: 16px;
+      line-height: 1.6; width: 70%; background-color: #000000; padding-left: 80px; padding-right: 60px
+      ; letter-spacing: -1px ; padding-top: 0px; margin: 0;padding-bottom: 0px; 
   }
 
   @media screen and (max-width: 700px) {
@@ -366,15 +336,16 @@ h2{
       width: 100%; padding: 25px; margin-top: 55em;
   }}
 
-  .block-line{
-      height: 47px;
-  } 
-
   @media screen and (max-width: 700px) {
     .block-line {
       height: 56%;
   }}
 
+  .text{
+    color: #000000; font-family: 'Source Code Pro', monospace; font-size: 16px; float: left;
+    line-height: 1.6; width: 100%; background-color: #ffffff; padding-left: 20%; padding-right:  20%
+    ; letter-spacing: -1px ; padding-top: 5%; margin: 0;padding-bottom: 5%; 
+}
   .footer {
     left: 0; 
     bottom: 0;
@@ -393,15 +364,10 @@ h2{
  .button {
   left: 0; float: right;
   bottom: 0; font-family:'Source Code Pro', monospace ; 
-  width: 100%; font-size: 21px; background-color: rgb(0, 0, 0);
+  width: 100%; font-size: 16px; background-color: rgb(0, 0, 0);
   color: white; padding-top: 15px; padding-bottom: 15px;
-  text-align: center;
+  text-align: center; 
 }
-
- @media screen and (max-width: 700px) {
-  .button {
-    padding-left:35%; padding-top: 15px; padding-bottom: 15px;
-  }} 
 
   .para1 {
     background-color: #ffffff; color: blue; font-size: 55px; float: left;
@@ -423,5 +389,4 @@ font-family:'Source Code Pro', monospace ; padding-right: 30%; padding-top: 31px
   .para2 {
     width: 100%; font-size: 20px; padding-top: 25px; padding-bottom: 55px;
   }}
- 
  
