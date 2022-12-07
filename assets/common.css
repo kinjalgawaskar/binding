@@ -96,7 +96,7 @@ h2{
         display: block;
         position: absolute;
         top: 47px;
-        right: 40px; position: fixed;
+        right: 50px; position: fixed;
       
         z-index: 1;
       
@@ -110,7 +110,7 @@ h2{
         height: 32px;
         position: absolute;
         top: -7px;
-        left: -5px;
+        left: -3px;
       
         cursor: pointer;
       
