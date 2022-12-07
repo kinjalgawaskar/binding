@@ -83,7 +83,7 @@ h2{
     
       a {
         text-decoration: none;
-        color: #232323;
+        color: #232323; font-family: 'Source Code Pro', monospace; 
       
         transition: color 0.3s ease;
       }
@@ -95,8 +95,8 @@ h2{
       #menuToggle {
         display: block;
         position: absolute;
-        top: 50px;
-        right: 50px; position: fixed;
+        top: 47px;
+        right: 40px; position: fixed;
       
         z-index: 1;
       
@@ -121,11 +121,10 @@ h2{
       
       #menuToggle span {
         display: block;
-        width: 33px;
-        height: 4px;
-        margin-bottom: 5px;
+        width: 15px;
+        height: 3px;
+        margin-bottom: 9px;
         position: relative;
-      
         background: #ffffff;
         border-radius: 3px;
       
@@ -166,7 +165,7 @@ h2{
       
       #menu {
         position: absolute;
-        width: 400px;
+        width: 435px; height: 900px;
         margin: -100px 0 0 0;
         padding: 50px;
         padding-top: 125px;
@@ -184,8 +183,8 @@ h2{
       }
       
       #menu li {
-        padding: 10px 0;
-        font-size: 22px;
+        padding: 10px 0; padding-left: 10px;
+        font-size: 22px; padding-top: 30px;
       }
       
       
