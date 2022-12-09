@@ -47,22 +47,10 @@ h2{
   scroll-behavior: smooth;
 }
 
-.face1 {
-   position:absolute;top: 40%;
-   left: 50%;
+.face {
+   position:absolute;top: 50%;
+   left: 50%; width: 40%;
    transform: translate(-50%, -50%);
-    }
-
-.face2{
-  position:absolute;top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-    }
-
-.face3{
-  position:absolute;top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
     }
     
     p{
