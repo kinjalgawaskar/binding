@@ -60,7 +60,7 @@ href="faviconeye.png">
           </div></a>
          
         </div>
-      
+       
         <nav role='navigation'>
           <div id="menuToggle">
         
@@ -92,6 +92,41 @@ href="faviconeye.png">
         </nav>
     
         <style>
+          * {
+            box-sizing: border-box;
+          }
+          
+          body {
+            margin: 0;
+          }
+          
+          .column {
+            float: left;
+            padding: 0px;
+          }
+          
+          .column.side {
+            width: 25%;
+          }
+          
+          .column.middle {
+            width: 50%;
+          }
+          
+          .row:after {
+            content: ""; padding-top: 5em;
+            display: table;
+            clear: both;
+          }
+          
+          @media screen and (max-width: 700px) {
+            .column.side, .column.middle {
+              width: 100%;
+            }
+          }
+          </style>
+
+        <style>
           body {
             margin: 0;
           }
@@ -107,7 +142,7 @@ href="faviconeye.png">
     <img src="indexface.png" class="face"
     alt="face"></a>
 
-    <img src="mobileface.png" class="mobileface"
+    <img src="in.png" class="mobileface"
     alt="mobileface"></a>
   
     </style>
@@ -120,9 +155,8 @@ href="faviconeye.png">
           
           <div id="slides__1" class="slide">
             <span class="slide__text">
-              <h3 style="color:rgb(0, 0, 0); letter-spacing: 10px; font-size: 30px;">PREFACE</h3>
 
-              <p2 style="color:rgb(0, 0, 0)">This website is an amalgamation of myriad articles
+              <p2 style="color:rgb(0, 0, 0);">This website is an amalgamation of myriad articles
               that shed light on Design as a subject; its genesis, evolution, form, function & use
               over the years & in present times. Read on to explore more and unravel how and why
               design is important for the new era. </p2></span> 
@@ -132,7 +166,7 @@ href="faviconeye.png">
           
           <div id="slides__2" class="slide">
             <span class="slide__text">
-              <h4 style="color:rgb(0, 0, 0); letter-spacing: 10px; font-size: 30px;">ABOUT THE DESIGNER</h4>
+              <h4 style="color:rgb(0, 0, 0); letter-spacing: 1px; font-size: 30px;">ABOUT THE DESIGNER</h4>
 
               <p4 style="color:rgb(52, 49, 49)">Kinjal Gawaskar is a digital designer from Bahrain
                 based in NYC presently pursuing a Masters degree in communication design at the
