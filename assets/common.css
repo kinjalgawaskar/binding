@@ -56,6 +56,22 @@ h2{
    left: 50%; width: 40%; width: 60%;
    transform: translate(-50%, -50%);
     }
+
+    @media (max-width:700px) {
+      .face {
+        visibility: hidden;
+      }   
+     }
+
+     .mobileface {
+      visibility: hidden;
+       }
+   
+       @media (max-width:700px) {
+         .mobileface {
+           visibility: visible; width: 100%; padding: 10px;
+         }   
+        }
     
     p{
       font-family: 'Source Code Pro', monospace; font-size: 16px; float: left;
@@ -203,6 +219,11 @@ h2{
         position: absolute;
         top:75vh;
       }
+
+      @media screen and (max-width: 700px) {
+        .slider-container {
+          width: 110%; padding: 0px; height: 60%;
+      }}
       
       .slider {
         width: 100%;
@@ -242,9 +263,13 @@ h2{
       
       .slide__text {
         font-size: 21px; padding-left: 150px; padding-right: 150px; padding-top: 40px;
-        padding-bottom: 0px;
-        font-family: 'Source Code Pro';
+        padding-bottom: 0px; font-family: 'Source Code Pro';
       }
+
+      @media screen and (max-width: 700px) {
+        .slide__text {
+          width: 100%; font-size: 16px; padding: 10px;
+      }}
       
       .slide a {
         background: none;
