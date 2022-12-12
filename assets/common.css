@@ -436,3 +436,12 @@ font-family:'Source Code Pro', monospace ; padding-right: 30%; padding-top: 31px
     .para4 {
        font-size: 40px; float: left; padding-left: 40px;padding-right: 40px;
   }}
+
+  .blur img{
+    transition: 1s ease;
+    }
+    
+    .blur img:hover {
+    -webkit-filter: blur(15px);
+    transition: 1s ease;
+    }
