@@ -344,6 +344,17 @@ h2{
           width: 124%; margin-top: -2em; margin-right: 15px; padding-bottom: 30px;
         }   
        }
+
+       .methodimage{
+        transition: 1s ease;
+        }
+        
+        .methodimage img:hover{
+        -webkit-transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        transform: rotateZ(-10deg);
+        transition: 1s ease;
+        }
       
     blockquote{
       color: #b0b0b0; font-family: 'Source Code Pro', monospace; font-size: 16px;
@@ -445,3 +456,4 @@ font-family:'Source Code Pro', monospace ; padding-right: 30%; padding-top: 31px
     -webkit-filter: blur(15px);
     transition: 1s ease;
     }
+    
