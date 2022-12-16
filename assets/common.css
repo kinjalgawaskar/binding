@@ -212,7 +212,6 @@ h2{
       .slider-container {
         width: 100%; padding-bottom: 0px;
         display: flex;
-        align-items: center;
         justify-content: center;
         height: 100%;
         top:75vh;
@@ -456,4 +455,26 @@ font-family:'Source Code Pro', monospace ; padding-right: 30%; padding-top: 31px
     -webkit-filter: blur(15px);
     transition: 1s ease;
     }
+
+@media print {
+
+}
+
+.face1 {
+  position: absolute; width: 29%;
+  top: 450px;
+left: 315px;
+   }
+   
+   .face2 {
+    position: absolute; width: 25%;
+    top: 50%;
+   left: 50%;
+     }
+
+     .face3 {
+      position: absolute; width: 29%;
+      top: 84%;
+      right:417px
+       }
     
